@@ -31,5 +31,5 @@ class QuadroNegro(object):
         print('instancias-de-problemas',self.estadoCompartilhado['instancias-de-problemas'])
 
     def pegaContribuicoes(self):
-        return self.estadoCompartilhado['contribuicoes']
+        return self.estadoCompartilhado['contribuicoes'] # metodo que retorna as contribuições feitas pelos especialistas
 
